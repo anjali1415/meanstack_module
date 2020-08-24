@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Weather station demo by jquery</title>
+    <script src="1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6" style="background:skyblue;
+                height:20vh;border: 2px solid black; border-radius: 10px;">
+                <div class="row justify-content-center align-items-center" style="height:15vh;">
+                    <div class="col-6 col-md-6 "><input type="text" id="inputid" placeholder="Enter city "></div>
+                    <div class="col-6 col-md-6"><button onclick="showWeather()">Click here</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center" id="parent" style="height:10vh;display:none">
+            <div class="col-12  d-flex justify-content-center align-items-center mt-4 "
+                style=" background:tomato; height:13vh;color:white;">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

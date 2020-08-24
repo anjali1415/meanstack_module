@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>project js</title>
+    <style>
+        #commentbox {
+            background: red;
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center mt-5" style="font-size:40px ;"> Calculator
+        </div>
+        <div class="row mt-5 justify-content-center align-items-center ">
+            <div class="col-12 col-md-5" style="background: cyan;height:50vh;
+            border: 2px solid black;border-radius: 10px;">
+                <!--ineer row -->
+                <div class="row d-flex flex-column">
+                    <!--inner col 1-->
+                    <div class="col mt-5 " style="margin-bottom: 30px;">
+                        <input type="number" id="ip1" placeholder="enetr num 1"
+                            style="margin-right:60px;margin-left: 30px; border:1px solid black; margin-left:px;">
+                        <input type="number" id="ip2" placeholder="enter num 2">
+                    </div>
+                    <!-- inner col 2-->
+                    <div class="col d-flex justify-content-center">
+                        <button type="submit" style="font-size:30px;margin-right:30px;  padding: 1vw;">+</button>
+                        <button type="submit" style="font-size:25px;margin-right:30px; padding: 1vw;">-</button>
+                        <button type="submit" style="font-size:25px;margin-right:30px;  padding: 1vw;">*</button>
+                        <button type="submit" style="font-size:25px;margin-right:30px ; padding: 1vw;">/</button>
+                        <button type="submit" style="font-size:25px;margin-right:30px;padding: 1vw;">%</button>
+                    </div>
+                    <!-- inner col 3-->
+                    <div class="col-5 mt-5 d-flex justify-content-center " id="commentbox"
+                        style="border: 2px solid black;margin-left:12vw; padding: 10px; font-size:20px;">
+                        <div id="ref">sample</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
